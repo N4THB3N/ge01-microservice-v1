@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "sqlproj: Build ClientsDatabaseCRUD",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"c:/ncastaneda/Projects/ge01-microservices-crud/ClientsDatabaseCRUD/ClientsDatabaseCRUD.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the ClientsDatabaseCRUD SQL project"
+		}
+	]
+}
