@@ -1,8 +1,8 @@
-##ge01-microservice-v1
+##ge01-microservice-v1##
 Esta es una WebService tipo REST hecho con C# y .NET 10 para el manejo de un Login básico y un CRUD para el almacenamiento de clientes para una pequeña empresa. 
 Además, en su conexión a base de datos, funciona con EntityFramework y SQL Server.
 
-##Instalación:
+##Instalación:##
 1. Por favor instale el SDK 10 de .NET el cual le permitirá compilar el proyecto:
    https://dotnet.microsoft.com/es-es/download/dotnet/10.0
 2. Instalar la librería de .NET Runtime con el cual podrá ejecutar el compilado generado:
